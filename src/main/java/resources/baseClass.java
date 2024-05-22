@@ -3,8 +3,9 @@ package resources;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.sql.Date;
+
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -77,7 +78,7 @@ public class baseClass {
 	  
  	// To take the screenshot and store in one folder- 
  		public static String screenShot(WebDriver driver, String filename) { 
- 			String dateAndTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date(0)); 
+ 			String dateAndTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date()); 
  			// 20240517100712 
   
  			File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE); 

@@ -37,7 +37,7 @@ public class logInPageObject {
 	
 	public String GetLoginFDailedAlert()
 	{
-		//commonMethod.handleExplicitWait(driver, 4,loginFailesAlert );
+		commonMethod.handleExplicitWait(driver, 4, driver.findElement(loginFailesAlert) );
 	
 		String s1 = driver.findElement(loginFailesAlert).getText();
 				return s1;
