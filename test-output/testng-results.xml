@@ -1,128 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="7" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-10T21:49:07 IST" name="Suite" finished-at="2024-06-10T21:50:10 IST" duration-ms="62984">
+  <suite started-at="2024-07-09T22:20:54 IST" name="Default suite" finished-at="2024-07-09T22:20:54 IST" duration-ms="95">
     <groups>
     </groups>
-    <test started-at="2024-06-10T21:49:07 IST" name="Test" finished-at="2024-06-10T21:50:10 IST" duration-ms="62984">
-      <class name="testCases.logInTestCase">
-        <test-method is-config="true" signature="browserAndUrlLaunch()[pri:0, instance:testCases.logInTestCase@38c6f217]" started-at="2024-06-10T21:49:45 IST" name="browserAndUrlLaunch" finished-at="2024-06-10T21:49:50 IST" duration-ms="5058" status="PASS">
+    <test started-at="2024-07-09T22:20:54 IST" name="Default test" finished-at="2024-07-09T22:20:54 IST" duration-ms="95">
+      <class name="branchforSonal.logOutTestCase">
+        <test-method signature="method1()[pri:0, instance:branchforSonal.logOutTestCase@7714e963]" started-at="2024-07-09T22:20:54 IST" name="method1" finished-at="2024-07-09T22:20:54 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserAndUrlLaunch -->
-        <test-method signature="verifyLoginWithValidData()[pri:4, instance:testCases.logInTestCase@38c6f217]" started-at="2024-06-10T21:49:50 IST" name="verifyLoginWithValidData" finished-at="2024-06-10T21:49:56 IST" duration-ms="5718" status="PASS">
+        </test-method> <!-- method1 -->
+        <test-method signature="method1()[pri:0, instance:branchforSonal.logOutTestCase@7714e963]" started-at="2024-07-09T22:20:54 IST" name="method1" finished-at="2024-07-09T22:20:54 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithValidData -->
-        <test-method is-config="true" signature="browserAndUrlLaunch()[pri:0, instance:testCases.logInTestCase@38c6f217]" started-at="2024-06-10T21:49:56 IST" name="browserAndUrlLaunch" finished-at="2024-06-10T21:50:02 IST" duration-ms="5616" status="PASS">
+        </test-method> <!-- method1 -->
+        <test-method signature="method1()[pri:0, instance:branchforSonal.logOutTestCase@7714e963]" started-at="2024-07-09T22:20:54 IST" name="method1" finished-at="2024-07-09T22:20:54 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserAndUrlLaunch -->
-        <test-method signature="verifyLogInWithInvalidDate()[pri:5, instance:testCases.logInTestCase@38c6f217]" started-at="2024-06-10T21:50:02 IST" name="verifyLogInWithInvalidDate" finished-at="2024-06-10T21:50:10 IST" duration-ms="8521" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //div[text()=' Warning: No match for E-Mail Address and/or Password.']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [836c2f69-1691-4fff-9fdc-69a75972b253, findElement {value=//div[text()=' Warning: No match for E-Mail Address and/or Password.'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:3195, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 28920, moz:profile: C:\Users\deepa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:3195/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 836c2f69-1691-4fff-9fdc-69a75972b253]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=' Warning: No match for E-Mail Address and/or Password.']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [836c2f69-1691-4fff-9fdc-69a75972b253, findElement {value=//div[text()=' Warning: No match for E-Mail Address and/or Password.'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:3195, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 28920, moz:profile: C:\Users\deepa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:3195/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 836c2f69-1691-4fff-9fdc-69a75972b253
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at PageObjectModel.logInPageObject.GetLoginFDailedAlert(logInPageObject.java:40)
-at testCases.logInTestCase.verifyLogInWithInvalidDate(logInTestCase.java:74)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogInWithInvalidDate -->
-      </class> <!-- testCases.logInTestCase -->
-      <class name="testCases.registerTestCase">
-        <test-method is-config="true" signature="ExtentReport()[pri:0, instance:testCases.registerTestCase@6ae5aa72]" started-at="2024-06-10T21:49:07 IST" name="ExtentReport" finished-at="2024-06-10T21:49:07 IST" duration-ms="392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExtentReport -->
-        <test-method is-config="true" signature="browserAndUrlLaunch()[pri:0, instance:testCases.registerTestCase@6ae5aa72]" started-at="2024-06-10T21:49:07 IST" name="browserAndUrlLaunch" finished-at="2024-06-10T21:49:17 IST" duration-ms="9581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserAndUrlLaunch -->
-        <test-method signature="verifyRegistrationwithValidData()[pri:0, instance:testCases.registerTestCase@6ae5aa72]" started-at="2024-06-10T21:49:17 IST" name="verifyRegistrationwithValidData" finished-at="2024-06-10T21:49:23 IST" duration-ms="6145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegistrationwithValidData -->
-        <test-method is-config="true" signature="browserAndUrlLaunch()[pri:0, instance:testCases.registerTestCase@6ae5aa72]" started-at="2024-06-10T21:49:23 IST" name="browserAndUrlLaunch" finished-at="2024-06-10T21:49:28 IST" duration-ms="4860" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserAndUrlLaunch -->
-        <test-method signature="verifyRegistrationwithInValidData()[pri:1, instance:testCases.registerTestCase@6ae5aa72]" started-at="2024-06-10T21:49:28 IST" name="verifyRegistrationwithInValidData" finished-at="2024-06-10T21:49:33 IST" duration-ms="5562" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegistrationwithInValidData -->
-        <test-method is-config="true" signature="browserAndUrlLaunch()[pri:0, instance:testCases.registerTestCase@6ae5aa72]" started-at="2024-06-10T21:49:33 IST" name="browserAndUrlLaunch" finished-at="2024-06-10T21:49:40 IST" duration-ms="6072" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserAndUrlLaunch -->
-        <test-method signature="verifyRegistrationwithBlankValidData()[pri:2, instance:testCases.registerTestCase@6ae5aa72]" started-at="2024-06-10T21:49:40 IST" name="verifyRegistrationwithBlankValidData" finished-at="2024-06-10T21:49:45 IST" duration-ms="5619" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegistrationwithBlankValidData -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:testCases.registerTestCase@6ae5aa72]" started-at="2024-06-10T21:50:10 IST" name="endReport" finished-at="2024-06-10T21:50:11 IST" duration-ms="800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- testCases.registerTestCase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- method1 -->
+      </class> <!-- branchforSonal.logOutTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
