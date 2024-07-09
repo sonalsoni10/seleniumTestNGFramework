@@ -21,4 +21,12 @@ public class testData {
 
 	public static String successfulLoginMessageExpected = "My Account";
 	public static String loginFailesAlertMessageExpected = "Warning: No match for E-Mail Address and/or Password.";
+
+	public static String loginWithEmailId = "test1716973596763@gmail.com";
+	
+	public static String searchIphoneText = "iphone";
+	public static String searchSamsungText = "samsung";
+	
+	
+	
 }

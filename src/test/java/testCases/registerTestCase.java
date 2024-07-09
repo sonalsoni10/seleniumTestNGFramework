@@ -38,8 +38,10 @@ public class registerTestCase extends baseClass{
 		 rpo.enterFirstName().sendKeys(testData.firstName);
 		 rpo.enterLastNAme().sendKeys(testData.lastName);
 		 rpo.enterEmailId().sendKeys(emailId);
+		 System.out.println(emailId);
 		 rpo.enterTelePhoneNo().sendKeys(testData.telePhoneNo);
 		 rpo.enterPassword().sendKeys(testData.password);
+		 System.out.println(testData.password);
 		 rpo.enterConfirmPassword().sendKeys(testData.confirmPassword);
 		 rpo.checkPrivecyPolicy().click();
 		 rpo.clickOnContinue().click();

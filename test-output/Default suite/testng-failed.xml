@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.logInTestCase">
+      <class name="testCases.addToCartTestCase">
         <methods>
-          <include name="verifyLoginWithValidData"/>
           <include name="endReport"/>
           <include name="browserAndUrlLaunch"/>
-          <include name="verifyLogInWithInvalidDate"/>
+          <include name="verifyAddToCart"/>
           <include name="ExtentReport"/>
         </methods>
-      </class> <!-- testCases.logInTestCase -->
+      </class> <!-- testCases.addToCartTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
